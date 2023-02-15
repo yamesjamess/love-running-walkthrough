@@ -5,6 +5,7 @@
     padding: 0;
     border: none;
 }
+
 body {
     font-family: Lato, sans-serif;
     font-weight: 300;
@@ -13,7 +14,8 @@ body {
 
 /* heading and logo */
 
-h1, h2 {
+h1,
+h2 {
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
@@ -29,10 +31,13 @@ h1, h2 {
     font-size: 110%;
     letter-spacing: 4px;
 }
-#menu, #logo{
+
+#menu,
+#logo {
     line-height: 75px;
 }
-#menu li{
+
+#menu li {
     float: right;
     list-style: none;
     margin-right: 30px;
@@ -43,7 +48,7 @@ h1, h2 {
     color: inherit;
 }
 
-#menu a:hover{
+#menu a:hover {
     border-bottom: 1px solid #3a3a3a;
 }
 
@@ -53,13 +58,19 @@ h1, h2 {
 
 /* hero image */
 
-#hero-outer{
+#hero-outer {
     height: 600px;
     width: 100%;
     overflow: hidden;
+
+    position: relative;
 }
 
-#hero-image{
+#cover-text, #cover-text h2 {
+    color: #fff;
+}
+
+#hero-image {
     height: 600px;
     width: 100%;
     background: url('../images/hero-image.webp') no-repeat center center;
@@ -71,11 +82,32 @@ h1, h2 {
 }
 
 /* create the level of zoom for hero image */
+
 @keyframes hero-zoom {
     from {
         transform: scale(1);
     }
+
     to {
         transform: scale(1.1);
     }
+}
+
+#cover-text {
+    font-size: 130%;
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+
+    width: 300px;
+    height: 200px;
+
+    padding-top: 40px;
+    padding-left: 10px;
+    background-color: rgb(241, 109, 107, .7);
+
+    bottom: 30px;
+    right: 150px;
+
+    position: absolute;
 }
