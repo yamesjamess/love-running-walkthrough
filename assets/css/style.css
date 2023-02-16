@@ -287,6 +287,8 @@ footer {
     hr {
         display: none;
     }
+
+
 }
 
 /* for medium screen size from 950px wide and below */
@@ -322,5 +324,15 @@ footer {
     .left-about-heading p, .right-about-heading p{
         text-align: center;
         padding: 0 20px;
+    }
+
+    #photos {
+        column-count: 3;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    #photos {
+        column-count: 2;
     }
 }
