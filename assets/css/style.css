@@ -67,7 +67,8 @@ h2 {
     position: relative;
 }
 
-#cover-text, #cover-text h2 {
+#cover-text,
+#cover-text h2 {
     color: #fff;
 }
 
@@ -119,19 +120,19 @@ h2 {
     height: 600px;
 }
 
-#left-about{
+#left-about {
     padding-top: 30px;
     width: 33%;
     float: left;
 }
 
-#right-about{
+#right-about {
     padding-top: 30px;
     width: 33%;
     float: right;
 }
 
-#center-about{
+#center-about {
     width: 33%;
     margin: 0 auto;
 }
@@ -158,11 +159,11 @@ hr {
     margin-bottom: 50px;
 }
 
-.right-about-heading h2{
+.right-about-heading h2 {
     text-align: right;
 }
 
-.right-about-heading p{
+.right-about-heading p {
     text-align: right;
 }
 
@@ -198,7 +199,7 @@ hr {
     overflow: hidden;
 }
 
-#times div{
+#times div {
     color: #fafafa;
     background-color: rgba(0, 0, 0, .6);
     width: 20%;
@@ -210,6 +211,28 @@ hr {
     box-sizing: border-box;
 }
 
-#times h2{
+#times h2 {
     color: #fafafa;
+}
+
+/* footer */
+
+footer {
+    height: 150px;
+}
+
+.social-network {
+    text-align: center;
+    
+}
+
+.social-network > li {
+    display: inline;
+}
+
+.social-network i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #3a3a3a;
 }
