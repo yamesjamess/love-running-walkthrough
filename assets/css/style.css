@@ -250,6 +250,20 @@ footer {
     width: 100%;
 }
 
+/* form */
+
+.form-section {
+    clear: left;
+    background: url('../images/formbg.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 900px;
+}
+
+section {
+    display: block;
+}
+
 /* media queries */
 
 /* for larger to medium screen size from 1200px and below */
